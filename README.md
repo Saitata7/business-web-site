@@ -14,9 +14,12 @@ Buiness-website template
    cd business-web-site
    ```
 
-3. Npm Installation and Start
+3. Npm Installation
    ```
    npm install
+   ```
+   Npm Start
+   ```
    npm start
    ```
 
