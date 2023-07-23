@@ -5,16 +5,20 @@ Buiness-website template
 **How to Open:**
 1. Clone the repository from GitHub using the following command:
    ```
-   git clone https://github.com/your-username/business-template-website.git
+   git clone https://github.com/Saitata7/business-web-site.git
    ```
    Alternatively, download the ZIP file and extract it to your desired location.
 
 2. Navigate to the project directory:
    ```
-   cd business-template-website
+   cd business-web-site
    ```
 
-3. Open the `index.html` file in your preferred web browser to view the website.
+3. Npm Installation and Start
+   ```
+   npm install
+   npm start
+   ```
 
 **How It's Working:**
 - The business template website is built using HTML, CSS, and JavaScript.
