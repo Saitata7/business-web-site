@@ -9,6 +9,7 @@ export const InfoSectionLight = ({
   title,
   subtitle,
   text,
+  newtext,
   image,
   btnText,
 }) => {
@@ -24,6 +25,7 @@ export const InfoSectionLight = ({
               <Subtitle>{subtitle}</Subtitle>
               <Title className="text-black mb-5">{title}</Title>
               <p className="text-black mb-4">{text}</p>
+              <p className="text-black mb-4">{newtext}</p>
               <ButtonBasicInv to="" primary="false" dark="true" className="mx-auto">
                 {btnText}
               </ButtonBasicInv>
