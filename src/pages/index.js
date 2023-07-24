@@ -43,8 +43,8 @@ export const Home = () => {
         image={Image1}
         id="#"
         subtitle="Contact information"
-        title="Address"
-        text="82 Upper sutton lane Heston Middx TW5 0QB, Heston middx, UK"
+        title="skrj80@gmail.com    |    +44 7909537987"
+        text="Address: 82 Upper sutton lane Heston Middx TW5 0QB, Heston middx, UK"
         //btnText="Read more"
       />
       <Footer />
