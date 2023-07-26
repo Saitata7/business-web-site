@@ -78,3 +78,26 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     font-size: 20px;
 
 `
+export const ButtonStart = styled.button`
+border-radius: 50px;
+background: ${({primary}) => (primary ? 'rgba(22, 193, 199, 0)' : 'rgba(1, 6, 6, 0)')};
+white-space: nowrap;
+padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
+color: ${({dark}) => (dark ? '#fff' : '#010606')};
+font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+outline: none;
+border: none;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.3s ease-in-out;
+text-decoration: none;
+font-weight: 600;
+
+&:hover {
+    background: ${({primary}) => (primary ? '#fff' : '#16c1c7')};
+    color: ${({dark}) => (dark ? '#010606' : '#fff')};
+}
+
+`

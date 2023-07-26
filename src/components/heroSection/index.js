@@ -7,8 +7,8 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
+  ButtonStart,
 } from "./HeroElements";
-import { ButtonR } from "../ButtonElements";
 import Video from "../../videos/bgvideo.mp4";
 import "../../App.css";
 
@@ -30,9 +30,9 @@ const HeroSection = () => {
         Property management and maintainance
         </p>
         <HeroBtnWrapper>
-          <ButtonR to="/signin" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+          <ButtonStart to="/signin" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
-          </ButtonR>
+          </ButtonStart>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

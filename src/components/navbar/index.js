@@ -3,15 +3,16 @@ import { FaBars } from "react-icons/fa";
 import {
   Nav,
   NavbarContainer,
-  NavLogo,
   MobileIcon,
   NavMenu,
   NavItem,
   NavLinks,
   NavBtn,
   NavBtnLink,
+  NavImg,
 } from "./NavbarElements";
 import "./../../App.css";
+import logo from "../../images/logo.png"
 
 export const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -31,9 +32,7 @@ export const Navbar = ({ toggle }) => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/">
-            <h1 className="logo-text">Skrj</h1>
-          </NavLogo>
+            <NavImg src={logo} alt=""/>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>

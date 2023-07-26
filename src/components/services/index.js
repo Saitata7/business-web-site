@@ -11,10 +11,10 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Comprehensive Property Listings</ServicesH2>
+          <ServicesH2>Property Developer</ServicesH2>
           <ServicesP>
-           Find your dream property for buying, selling,
-            or rental from our vast and updated database.
+          Discover Your Ideal Project! Explore our extensive database for buying,
+           selling, and rental opportunities. Your dream property awaits.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
